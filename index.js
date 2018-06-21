@@ -9,8 +9,10 @@ function takeANumber(katzDeliLine, name) {
   return `Welcome, ${name}. You are number ${positionInLine} in line.`
 }
 
-function takeANumber2() {
-  
+function takeANumber2(katzDeliLine) {
+  totalNum +=1;
+  katzDeliLine.push(totalNum);
+  return `Welcome, you are number ${totalNum}`;
 }
 
 
